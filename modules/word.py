@@ -21,7 +21,7 @@ def createWordFile():
         doc.add_paragraph(para)
 
     doc.save(output_path)
-    return True
+    return "Generated document using Agentic AI..."
 
 def readWordFile(path):
     doc = Document(path)

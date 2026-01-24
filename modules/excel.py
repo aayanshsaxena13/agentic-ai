@@ -16,4 +16,4 @@ def automateToExcel():
 
     # This is the last part...
     excel_data = df.to_excel(output_path, index=False)
-    return True
+    return "Generated excel spreadsheet using Agentic AI..."

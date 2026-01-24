@@ -1,9 +1,13 @@
 # Import the library here...
 import requests
+import os
 
 # These are the desired helpers...
-output_Path = r"C:\Users\DELL\OneDrive\Desktop\agentic-ai\output\output.html"
+output_path = os.path.join(os.path.dirname(__file__), "..", "output", "webscraped.html")
 
-def getUrl(url):
+def scrapeUrl(url):
     data = requests.get(url).text
-    return data
+    
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(data)
+    return "Fetched data using Agentic AI..."
