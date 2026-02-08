@@ -1,6 +1,5 @@
 # Import statements here...
 from pptx import Presentation
-from pptx.util import Pt, Inches
 import os
 import json
 
