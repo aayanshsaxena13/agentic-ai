@@ -4,11 +4,11 @@ import os
 import json
 
 # Create new helpers...
-file_path = os.path.join(os.path.dirname(__file__), "..", "input", "word_input.json")
-output_path = os.path.join(os.path.dirname(__file__), "..", "output", "word.docx")
+file_path = os.path.join(os.path.dirname(__file__), "..", "input", "word_input.json") # or give your own input...{ header:str, paragraphs:list of str }
+output_path = os.path.join(os.path.dirname(__file__), "..", "output", "word.docx") # change to your own output path
 
 def createWordFile():
-    doc = Document()
+    doc = Document() # create a new word document
 
     # Read input file...
     with open(file_path, "r") as f:

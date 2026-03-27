@@ -11,7 +11,7 @@ def chat(message: str):
     client = OpenRouter(api_key=os.getenv("OPENROUTER_API_KEY"))
     
     response = client.chat.send(
-        model="mistralai/mistral-7b-instruct",
+        model="nvidia/nemotron-3-super-120b-a12b:free",
         messages=[{"role": "user", "content": message}]
     )
     
