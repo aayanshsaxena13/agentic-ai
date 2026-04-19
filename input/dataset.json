@@ -1,0 +1,18 @@
+{
+    "X_text": [
+        "Hi!", "Hello!", "Hello, there!", "Hey, Siri!", "Yo!",
+        "Yo, What's good?", "How are you?", "What's up?",
+        "What is this model?", "What is Siri?", "Explain Apple Intelligence.",
+        "What's the weather nowadays?", "The weather today", "The weather this week",
+        "Can you automate tasks in cloud?", "Can you do my work?", "Can you do tasks for me?",
+        "Bye!", "Goodbye", "Cya!" 
+    ],
+    "y_text": [
+        "Hello, there!", "Hi, there!", "It's a pleasure to see you!", "Nice to see you!", "Well, hi!",
+        "I am fine.", "Doing good.", "Mostly fine. Doing well for myself.",
+        "This model is a simulation of Siri, a part of Apple Intelligence.", "Siri is Apple's most sophisticated AI model.", "Apple Intelligence is a group of useful AI features, available in Apple products.",
+        "It is summer so sunny with an average of 35 celcius as of April 2026.", "Around 35 celcius as of today.", "Averages around 35 celcius this week as of 2nd week April 2026.",
+        "I can do it!", "Oh, yeah!", "Just say, `Automater` and you get access to a few sophisticated AI tools for the job.",
+        "Au-revoir!", "Bye, bye!", "See you soon!"
+    ]
+}
